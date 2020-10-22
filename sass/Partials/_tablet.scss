@@ -1,43 +1,20 @@
 @media (max-width: 1023px){
     //Header
-    #Menu{
-        display: none;
-    }
-    #Menu_secundario{
-        display: block;
-    }
-    #header ul{
-        position: absolute;
-        width: 100%;
-        max-width: 100%;
-        background-color: rgba($color: #000000, $alpha: 0.4);
-        z-index: 100;
-    }
     #header ul li{
-        list-style: none;
-        float: left;
         font-size: 15px;
         padding: 1.1% 0 1.1% 0;
         padding-left:2%;
         margin-left: 1%;
     }
-    #header ul li a{
-        color: white;
-        text-decoration: none;
-    }
     #lista1{
         margin-left: 0%;
     }
     #iconos{
-        z-index: 1000;
-        position: absolute;
-        float: left;
         top: 5px;
         left: 80%;
     }
     #iconos2{
         max-width: 50%;
-    
     }
     //fin header
 
@@ -47,22 +24,14 @@
         margin-left: 1%;
         
     }#prefooter{
-        max-width: 100%;
-        position: relative;
         margin-bottom: 38%;
         margin-top: 10%;
     }
     #prefooter #avion{
-        position: absolute;
-        z-index: 10000;
-        width: 20%;
         top: 80px;
         left: 14.3%;
     }
     #cont-prefooter{
-        position: absolute;
-        z-index: 1000;
-        color: white;
         width: 50%;
         top: 80px;
         left: 45%;
